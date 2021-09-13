@@ -7,7 +7,7 @@ pipeline {
             echo "$GIT_BRANCH"
          }
       }
-      stage('Verify Branch') {
+      stage('Verify Branch Again') {
          steps {
             echo "$GIT_BRANCH"
          }
